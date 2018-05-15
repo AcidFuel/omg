@@ -6,7 +6,6 @@ protected JButton[] button = new JButton[2];
 protected String[] textBtn = {"Турагент", "Турист"};
 protected Integer[] btncoordxy = {80, 80, 60, 120};
 protected Integer[] btnscale = {200, 200, 30, 30};
-protected Integer lol=0;
 public JPanel setPanel (JPanel panel, int x, int y, int width, int height) {	
 panel.setLayout(null);
 panel.setBounds(x, y, width, height);

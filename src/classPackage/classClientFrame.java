@@ -40,8 +40,8 @@ public void setButton(int i, JPanel panel) {
 btn[i] = new JButton();
 
 btn[i].setText(text[i]);
-
-/*btn[0].setBackground(null);
+/*
+btn[0].setBackground(null);
 btn[0].setForeground(null);
 if (i==1){
 	btn[1].setBackground(null);
