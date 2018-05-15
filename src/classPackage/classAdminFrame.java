@@ -74,6 +74,11 @@ textField[i] = new JTextField();
 
 textField[i].setBounds(coordxy[i + 9], coordxy[i + 22], scale[9], scale[10]);
 
+/*if (i==0){
+textField[i].setBackground(Color.GREEN);
+}
+*/
+
 textField[i].setFont(new Font("Segoe UI Light", Font.PLAIN, size[9]));
 	
 panel.add(textField[i]);

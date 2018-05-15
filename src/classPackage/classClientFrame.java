@@ -28,6 +28,7 @@ protected String[] text = {"Отправить заявку", "Выйти из �
 "Количество людей - ", "Выберите тип перевозки: ", "Выберите тип организации питания: ", "Стоимость тура - ",
 "Авиаперелет", "Круиз",
 "Завтрак, обед и ужин", "Завтрак и обед", "Только завтрак"};
+
 	
 protected Integer[] coordxy = {0, 195, 0, 0, 0, 0, 0, 0, 130, 130, 110, 160, 160, 230, 230, 230,
 220, 220, 255, 0, 40, 80, 135, 290, 0, 40, 290, 80, 105, 135, 160, 186};
@@ -40,8 +41,8 @@ public void setButton(int i, JPanel panel) {
 btn[i] = new JButton();
 
 btn[i].setText(text[i]);
-/*
-btn[0].setBackground(null);
+
+/*btn[0].setBackground(null);
 btn[0].setForeground(null);
 if (i==1){
 	btn[1].setBackground(null);
@@ -76,6 +77,11 @@ panel.add(lbl[i]);
 public void setTextField(int i, JPanel panel) {
 
 txtfield[i] = new JTextField();
+
+/*if (i==0){
+	txtfield[i].setBackground(Color.GREEN);
+}
+*/
 
 txtfield[i].setBounds(coordxy[i + 8], coordxy[i + 24], 50, 30);
 	
