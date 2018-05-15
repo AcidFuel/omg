@@ -41,8 +41,17 @@ btn[i] = new JButton();
 
 btn[i].setText(text[i]);
 
-btn[i].setBackground(null);
-btn[i].setForeground(null);
+/*btn[0].setBackground(null);
+btn[0].setForeground(null);
+if (i==1){
+	btn[1].setBackground(null);
+	btn[1].setForeground(null);
+}
+if (i==2){
+	btn[2].setBackground(null);
+	btn[2].setForeground(null);
+}
+*/
 	
 btn[i].setBounds(coordxy[i], coordxy[i + 16], scale[i], scale[13]);
 

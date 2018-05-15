@@ -40,8 +40,13 @@ button[i] = new JButton();
 
 button[i].setText(text[i]);
 
-button[i].setBackground(null);
-button[i].setForeground(null);
+/*button[0].setBackground(null);
+button[0].setForeground(null);
+if (i==1){
+	button[1].setBackground(null);
+	button[1].setForeground(null);
+}
+*/
 	
 button[i].setBounds(coordxy[i], coordxy[i + 13], scale[i], scale[10]);
 	

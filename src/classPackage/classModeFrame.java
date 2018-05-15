@@ -6,6 +6,7 @@ protected JButton[] button = new JButton[2];
 protected String[] textBtn = {"Турагент", "Турист"};
 protected Integer[] btncoordxy = {80, 80, 60, 120};
 protected Integer[] btnscale = {200, 200, 30, 30};
+protected Integer lol=0;
 public JPanel setPanel (JPanel panel, int x, int y, int width, int height) {	
 panel.setLayout(null);
 panel.setBounds(x, y, width, height);
@@ -14,8 +15,13 @@ return panel;
 protected void setJButton(JPanel panel, int i) {
 button[i] = new JButton();	
 button[i].setText(textBtn[i]);
-button[i].setBackground(null);
-button[i].setForeground(null);
+/*button[0].setBackground(null);
+button[0].setForeground(null);
+if (i==1){
+	button[1].setBackground(null);
+	button[1].setForeground(null);
+}
+*/
 button[i].setBounds(btncoordxy[i], btncoordxy[i + 2], btnscale[i], btnscale[i + 2]);		
 button[i].setFont(new Font("Segoe UI Light", Font.PLAIN, 14));		
 panel.add(button[i]);
