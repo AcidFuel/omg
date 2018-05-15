@@ -42,6 +42,7 @@ btn[i] = new JButton();
 
 btn[i].setText(text[i]);
 
+//цвет кнопки и текста кнопки
 /*btn[0].setBackground(null);
 btn[0].setForeground(null);
 if (i==1){
@@ -78,6 +79,7 @@ public void setTextField(int i, JPanel panel) {
 
 txtfield[i] = new JTextField();
 
+//цвет поля ввода
 /*if (i==0){
 	txtfield[i].setBackground(Color.GREEN);
 }

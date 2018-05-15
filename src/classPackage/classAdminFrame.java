@@ -40,6 +40,7 @@ button[i] = new JButton();
 
 button[i].setText(text[i]);
 
+//цвет кнопки и текста кнопки
 /*button[0].setBackground(null);
 button[0].setForeground(null);
 if (i==1){
@@ -60,6 +61,8 @@ protected void setJLabel(int i, JPanel panel) {
 label[i] = new JLabel();
 	
 label[i].setText(text[i + 2]);
+//цвет текста на всей форме
+//label[i].setForeground(Color.RED);
 	
 label[i].setBounds(coordxy[i + 2], coordxy[i + 15], scale[i + 2], scale[10]);	
 	
@@ -74,6 +77,7 @@ textField[i] = new JTextField();
 
 textField[i].setBounds(coordxy[i + 9], coordxy[i + 22], scale[9], scale[10]);
 
+//цвет поля ввода
 /*if (i==0){
 textField[i].setBackground(Color.GREEN);
 }

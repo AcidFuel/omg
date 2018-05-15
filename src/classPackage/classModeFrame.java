@@ -14,6 +14,8 @@ return panel;
 protected void setJButton(JPanel panel, int i) {
 button[i] = new JButton();	
 button[i].setText(textBtn[i]);
+
+//цвет кнопки и текста кнопки
 /*button[0].setBackground(null);
 button[0].setForeground(null);
 if (i==1){
